@@ -6,7 +6,8 @@ int main(){
 
     printf("Hello World!");
 //    scanf("%c", &s);
-
+	printf("oytun was here");
+    
     int ilk_sayi = 1;
 	int ikinci_sayi = 1;
 	int i,n;
