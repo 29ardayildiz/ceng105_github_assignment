@@ -46,6 +46,9 @@ int main(){
 		sum = 0;
 	}
 	
+	
+	printf("oytun and arda did this app");
+	
 /*    
     int ilk_sayi = 1;
 	int ikinci_sayi = 1;
