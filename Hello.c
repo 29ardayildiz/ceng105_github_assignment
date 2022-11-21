@@ -24,5 +24,33 @@ int main(){
 		printf("%d\n", ikinci_sayi);		
 	}
 
+	int num;
+	printf("Bir sayi giriniz:");
+	scanf("%d",&num);
+		
+	asal_mi(num);
+	
+	if (asal_mi(num) == 0){
+		printf("Asal degil");
+	}
+ 	
+	else if (asal_mi(num) == 1){
+		printf("Asal");
+	}
+
     return 0;
+}
+
+int asal_mi(sayi){
+	
+	int i;
+	
+	
+	for (i=2; i<sayi; i++){
+		if(sayi % i == 0){
+			return 0;
+		}	
+	}
+	
+	return 1;
 }
