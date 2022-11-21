@@ -48,6 +48,7 @@ int main(){
 	
 	
 	printf("oytun and arda did this app");
+	printf("aa");
 	
 /*    
     int ilk_sayi = 1;
